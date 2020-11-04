@@ -5,7 +5,7 @@ const parser = require("body-parser")
 
 app.use(parser.json())
 
-app.get("/countries", (req, res)=>{
+app.get("/", (req, res)=>{
     countries.find({}).then( country =>{
     res.json()
     })
