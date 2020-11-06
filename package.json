@@ -1,0 +1,29 @@
+{
+  "name": "api_project",
+  "version": "1.0.0",
+  "description": "This porject was created using the data information from :",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinaMierke/api_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LinaMierke/api_project/issues"
+  },
+  "homepage": "https://github.com/LinaMierke/api_project#readme"
+}
