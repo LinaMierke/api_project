@@ -13,6 +13,18 @@ The countries database contains a lib folder, where you can find the data, conne
 2. Have an accesible Api source for future projects
 3. Understand MongoDB-express and Node
 
+# CRUD Functionality
+
+|      URL                |  Path        |  Method       |   Action |   Description                 |
+|-------------------------|--------------|---------------|----------|-------------------------------|
+|       "/"               |   /          |   GET         |  #index  |  List all items of countries  |
+| "/c/:capital"       |   /capital    |   GET         |  #index  | Show resources by capital name |
+| "/capital"           |   /capital      |   GET         |  #index  | Show all capitals  
+|       "/"               |   /          |   POST        |  #Create | Create a new country        |
+| "/:capital"         |   /capital     |   PATCH / PUT |  #Update | Update Capital name            |
+| "/delete/:population"           |   /population       |   DELETE      | #destroy | Delete by population                 |
+|       "/"               |   /          |   GET         |  #index  | List all 
+
 
 # Documentation
 
